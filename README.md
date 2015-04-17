@@ -34,6 +34,6 @@
     ]
 } 
 
- you are best to use instance role and then remove the parameters in the connection string for ec2
+Best practice is to use instance role and then remove the parameters in the connection string for ec2. If your instance is not using instance role then you need IAM user.
  
 
