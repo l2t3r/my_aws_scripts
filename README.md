@@ -37,6 +37,6 @@
 Best practice is to use instance role and then remove the parameters in the connection string for ec2. If your instance is not using instance role then you need IAM user.
  
  
- Another good script to is the ec2-expire-snapshots ( Delete expired EBS snapshots in Amazon EC2 )
- https://github.com/alestic/ec2-expire-snapshots
+ Another good script to is the ec2-expire-snapshots ( Delete expired EBS snapshots in Amazon EC2  https://github.com/alestic/ec2-expire-snapshots )
+
 
