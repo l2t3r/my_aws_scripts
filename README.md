@@ -2,8 +2,8 @@
 
  Both volume ids and retension can be configured
 
+
  You will require a IAM user with the following permission
- 
  {
     "Version": "2012-10-17",
     "Statement": [
@@ -32,7 +32,7 @@
             ]
         }
     ]
-}
+} 
 
  you are best to use instance role and then remove the parameters in the connection string for ec2
  
