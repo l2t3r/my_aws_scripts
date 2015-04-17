@@ -11,7 +11,7 @@ today = now.date()
 
 #Definitions
 num_of_days_to_keep=13
-volume_list = { 'portaldata': 'vol-42329615','bankdata': 'vol-0c72dc3ei' }
+volume_list = { 'portaldata': 'vol-111111','bankdata': 'vol-2222222' }
 
 conn =  boto.ec2.connect_to_region("ap-southeast-2", aws_access_key_id='AAAAAAAAAAAAAAAAAAAAAAAAA', aws_secret_access_key='BBBBBBBBBBBBBBBBBBBBBBBBBBBBBB')
 
